@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AI Question Agent - document worker</title>
+</head>
+<body>
+    <!--
+        Never seen. A service worker has no XML parser and no
+        DOMParser, so the Word document is opened, answered and
+        saved here instead, and the worker talks to it by message.
+    -->
+    <script src="docx-zip.js"></script>
+    <script src="docx.js"></script>
+    <script src="doc-reader.js"></script>
+    <script src="offscreen.js"></script>
+</body>
+</html>
